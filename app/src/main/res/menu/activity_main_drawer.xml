@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_daily_diet"
+            android:title="Daily Diet" />
+        <item
+            android:id="@+id/nav_steps_taken"
+            android:title="Steps" />
+        <item
+            android:id="@+id/nav_calorie_tracker"
+            android:title="Calorie Tracker"/>
+        <item
+            android:id="@+id/nav_report"
+            android:title="Report"/>
+        <item
+            android:id="@+id/nav_gmaps"
+            android:title="Fitness Areas"/>
+
+        <item android:id="@+id/nav_main_screen"
+            android:title="Main Screen"/>
+
+    </group>
+</menu>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Food Category"
+        />
+
+    <Spinner
+        android:id="@+id/spin_food_category"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Select Food"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:id="@+id/spin_food_items"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Add to Consumption"
+        android:id="@+id/consumption_btn"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_height="wrap_content"
+        android:text="Didn't like the current options? Add a new one!"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:hint="Add your new item"
+        android:id="@+id/enter_new_food"
+        />
+    <Button
+        android:id="@+id/consumption_search"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Add to Consumption and Search"
+
+        />
+
+    <ImageView
+        android:id="@+id/google_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="100dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    <EditText
+        android:id="@+id/editServings"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="250dp"
+        android:inputType="number"
+        android:hint="Enter Servings"
+        />
+
+
+    <EditText
+        android:id="@+id/editServings2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="Enter Servings"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Related Images and Description"/>
+
+    <TextView
+        android:id="@+id/google_description"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginRight="100dp" />
+
+
+
+</RelativeLayout>
